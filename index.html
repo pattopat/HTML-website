@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Horoscopes</title> 
+        <link rel="stylesheet" href="nomarlize.css">
+        <link rel="stylesheet" href="global.css">
+    </head>
+    <body>
+    <header>
+        <nav class="container">
+            <span>
+                <a class="logo" href=""><h3>Home</h3></a>
+            </span>
+            <span>
+                &nbsp;
+            </span>
+            <script>
+                    async function search() {
+			var url = "https://capstonepage.com/api/user-login"
+			var payload = { }
+			payload.method = "POST"
+			payload.headers = { }
+			payload.headers["Content-Type"] = "application/x-www-form-urlencoded"
+			payload.body = "email=kookiatsuetrong@gmail.com&password=Password1"
+			var response = await fetch(url, payload)
+			var text     = await response.text()
+			var element  = document.getElementById("result")
+			element.innerText = text
+		}
+		</script>
+            <span class="menu-container">
+                <a class="menu" href="/hospital-register.html"
+                    >Create Account</a>
+                <a class="menu" href="/hospital-login.html"
+                    >Log In</a>
+            </span>
+        </nav>
+        <section class="container">
+            <h1>Daily Horoscopes 2023</h1>
+            <p>Welcome to Horoscopes</p>
+            <a class="white-button" href="/hospital-register.html"
+                >Create Account</a>
+            <a class="white-button" href="/hospital-login.html"
+                >Log In</a>
+        </section>
+        </header>
+    </section>
+        <main>
+    <h2 class="slogan">More Horoscopes for You</h2>
+    <section class="container trio">
+	<p>
+		Learn more about zodiac signs or explore other horoscopes and tarot card readings
+	</p>
+	<p>
+		Monday's Love Horoscope For April 17, 2023
+	</p>
+	<p>
+		Tarot Horoscope For April 16, 2023, All Zodiac Signs
+	</p>
+    </section>
+    </main>
+</section>
+<br><hr></br>
+<section class="container duo">
+	<section class="panel">
+		<h3>Register</h3>
+		<p>
+			Make or secure official entry of in a register
+		</p>
+		<span>
+			<a class="button" 
+				href="/hospital-register.html">Register</a>
+		</span>
+	</section>
+	<section class="panel">
+		<h3>Log In</h3>
+		<p>
+			Sign In to Your Account To access your Register.com Web Mail, fill in your domain name 
+		</p>
+		<span>
+			<a class="button" 
+				href="/hospital-login.html">Log In</a>
+		</span>
+	</section>
+    <section class="container feature-container">
+        <section class="feature">
+            <img src="https://www.nicepng.com/png/detail/217-2178773_gemini-free-download-png-gemini-star-sign-symbol.png" style="width:200px;height:150px;"> 
+            <h3>Gemini</h3>
+            <p>
+                May 21 - Jun 20
+            </p>
+        </section>
+        .
+        .
+        .
+        <section class="feature">
+            <img src="https://img.favpng.com/2/24/12/pisces-astrological-sign-horoscope-symbol-png-favpng-cxbi9mjyjEbgpN0DRsysT58sW.jpg"style="width:200px;height:150px;"> 
+            <h3>Pisces</h3>
+            <p>
+            Feb 19 - Mar 20
+            </p>
+        </section>
+    </section>
+    </section>
+    <section class="container">
+        <section class="photo-left">
+            <img src="https://stylecaster.com/wp-content/uploads/2022/09/viva-luna-studios-y3qrbAgm7q8-unsplash.jpg">
+            <p>
+                Card of the Day
+            </p>
+        </section>
+        <section class="photo-right">
+            <p>
+                Today's Reading
+                <br />
+                CHOOSE YOUR CARDS
+            </p>
+            <img src="https://www.yourtango.com/sites/default/files/image_blog/pick-tarot-card-reading-january-2021-all-zodiac-signs.jpg">
+        </section>
+    </section>
+<footer>
+	<section class="container footer-container">
+		<span>
+			<a href="/index.html">Home</a>
+			<a href="/history.html">History</a>
+			<a href="/service.html">Service</a>
+			<a href="/payment.html">Payment</a>
+		</span>
+		<span>
+			<a href="/hospital-register.html">Create Account</a>
+			<a href="/hospital-login.html">Log In</a>
+			<a href="/hospital-reset.html">Reset Password</a>
+			<a href="/hospital-main.html">Management</a>
+			<a href="/hospital-contact.html">Contact Us</a>
+		</span>
+		<span>
+			<h3>Horoscopes.com</h3>
+			<p>
+				Tell me my Horoscopes
+				<br/>
+				<br/>
+				Copyright &copy; 2023
+			</p>
+		</span>
+	</section>
+</footer>
+</body>
+</html>
